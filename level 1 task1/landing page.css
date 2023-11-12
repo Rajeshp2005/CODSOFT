@@ -532,7 +532,6 @@ padding: 8px 0px 10px 0px;
     margin: 3px 0;
     text-transform: none;
    color: grey;
-
 }
 .contact form .input input{
  margin: 1px;
@@ -542,6 +541,7 @@ padding: 8px 0px 10px 0px;
     background: url(/img/form.jpeg);
     color: aqua;
     font-weight: bolder;
+    z-index: -1;
 }
 .contact form textarea{
     width: 50%;
