@@ -541,7 +541,6 @@ padding: 8px 0px 10px 0px;
     background: url(/img/form.jpeg);
     color: aqua;
     font-weight: bolder;
-    z-index: -1;
 }
 .contact form textarea{
     width: 50%;
