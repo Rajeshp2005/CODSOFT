@@ -7,43 +7,43 @@
 html{
     scroll-behavior:smooth;
     transition: all 0.5s ease-in;
+    font-size: 100%;
+    
 }
-body{
-  width:100%;
-  height: 100vh;
+body{ 
+    width: 100%;
   background: #F0FAF2;
-   background-position:relative;
+   background-position:center;
    background-repeat: no-repeat;
    background-size:100%;
     background-attachment: fixed;
 }
 
 
-header {  min-width: 100%;
+header {   width: 100%;
     text-align: center ;
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
-    display: flex;
     position: fixed;
-    flex-direction: row;
-    letter-spacing: 1px;
-    background: #F0FAF2;
-   
+    display: flex; 
+    z-index: 10000;
+    letter-spacing: .0625rem;
+    background: #F0FAF2; 
+    
 }
 header .logo img{
-    margin-left: 70px;
-    height: 42px;
-    width: 42px;
+    margin-left: 4.375rem;
+    width: 2.625rem;
     border-radius: 50% 50% 50% 50%;
 }
-header .navbar1{ margin-left: 300px;}
+header .navbar1{ margin-left: 18.75rem;}
 header .navbar1 a{
     text-decoration: none;
     color:black;
    display: inline-block;
    justify-content: space-evenly;
-    margin: 24px;
+    margin: 1.5rem;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Times New Roman', Times, serif, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
@@ -59,23 +59,23 @@ header .navbar1 a:visited{
     background-color: rgba(0,0,0,0.5);
 }
 .navbar2{
-    margin-left: 220px;
+    margin-left: 13.75rem;
 }
 .navbar2 .btn  :nth-child(1){
-  height: 29px;
+  height: 1.8125rem;
   border-radius: 5% 5% 5% 5%;
-
- 
+  transform: translate(-2%,-8%);
 }
 .navbar2 .btn :nth-child(2){
-    height: 24px;
-    width: 55px;
+    height: 1.5rem;
+    width: 3.4375rem;
     cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.05rem;
     border-radius: 10% 10% 10% 10%;
     background-color: green;
     color: aliceblue;
+    
 }
 .navbar2 .btn :nth-child(2):hover{
     color: black;
@@ -84,40 +84,39 @@ header .navbar1 a:visited{
 }
 
 section{
-    padding: 2rem 8%;
+    padding: 2rem 8rem;
 }
 .home{
     background-image: url(/img/tasbir2.jpg);
     width: 100%;
-    height: 100vh;
+    height: 49rem;
     background-position:relative;
    background-repeat: no-repeat;
    background-size:100%;
     background-attachment: fixed;
-   
 }
 .home :hover{
     background: #F0FAF2;
     border-radius: 10% 0 10% 0;
 }
 .home .main{
-    max-width: 600px;
-    border-left: 8px groove #45B34A;
+    max-width: 37.5rem;
+    border-left: .5rem groove #45B34A;
     border-top-left-radius:5% ;
     border-bottom-left-radius: 5%;
-    margin-left: 50px;
+    margin-left: 3.125rem;
     animation:head 1s  ease-in-out 1;
     animation-play-state: running;
-    
+   
 }
 .home .main .btn1{
-    width: 85px;
+    width: 5.3125rem;
     font-family:'Gill Sans', 'Gill Sans MT', 'Times New Roman', Times, serif 'Trebuchet MS', sans-serif;
     background: white;
-    font-size: 1em;
-    height: 28px;
+    font-size: 1rem;
+    height: 1.75rem;
     border-radius: 10% 0 10% 0;
-   margin-left: 40%;
+   margin-left: 14rem;
    animation:head 5s  ease-in-out 1;
     color: #F0FAF2;
 }
@@ -135,18 +134,17 @@ section{
     cursor: pointer;
 }
 .home .main h2{
-   max-width: 200px;
-    max-height: 50px;
+   max-width: 12.5rem;
+    max-height: 3.125rem;
     font-size: 3rem;
-    margin-top: 200px;
+    margin-top: 12.5rem;
    color: black;
-   overflow: hidden;
    animation:head 5s  ease-in-out 1;
    animation-play-state: running;
-   white-space: nowrap;
    text-transform: uppercase;
    transform: scale(1.01);
-   z-index: -1;
+   
+
 }
 
 @keyframes head{
@@ -170,6 +168,7 @@ section{
 
 .home .main .summary span{
     line-height: 1.2;
+    white-space: normal;
 }
 .home .main h2 span:nth-child(1){color: black;}
 .home .main h2 span:nth-child(2){color: black;}
@@ -207,6 +206,7 @@ section{
    overflow: hidden;
    animation:head 4s  ease-in-out 1,typing 5s steps(80,end) infinite;
    white-space: nowrap;
+   
   
 }
 @keyframes typing{
@@ -227,51 +227,51 @@ section{
 .box1{
 color:black;
 font-weight: bolder;
-margin-top: 2%;
+margin-top: 2rem;
 font: 1.5rem sans-serif;
 
 }
 .about{
     font-weight: bold;
     background-color: #F0FAF2;
-    box-shadow: 7px 4px 4px 5px black;
+   
    
 }
 .member1{
-   margin-top: 1%;
-    max-width: 560px;
-    padding: 10px;
-    margin-left: 19.5%;
-    z-index: -1;
+   margin-top: 1rem;
+    max-width: 35rem;
+    padding: .625rem;
+    margin-left: 15.5rem;
     color: black;
     font-weight: lighter;
    
+   
 }
 .member1 img{ 
-    margin-left: 103%;
-    margin-top: -60%;
-    width: 300px;
+    margin-left: 35rem;
+    margin-top: -20rem;
+    width: 18.75rem;
     border-radius: 10% 10% 10% 10%;
-    box-shadow: 4px 3px 3px 3px green; 
+    box-shadow: .1rem .1rem .1rem .1rem green; 
     
 }
 .member2 img{
-    margin-left: -150%;
-    margin-top:-85%;
-    width: 300px;
+    margin-left: -45rem;
+    margin-top:-25rem;
+    width: 18.75rem;
     border-radius: 10% 10% 10% 10%;
-    box-shadow: 4px 3px 3px 3px green;
+    box-shadow: .1rem .1rem .1rem .1rem green;
+  
 }
 #about img:hover{
  transform: scale(1.05);
  transition: all 1s ease-in-out;
 }
 .member2{
-    margin-top: 5%;
-    max-width: 505px;
-    padding: 10px;
-    margin-left: 43%;
-    z-index: -1;  
+    margin-top: 1rem;
+    max-width: 31.5625rem;
+    padding: .625rem;
+    margin-left: 35rem;
     font-weight: lighter; 
 }
 
@@ -280,36 +280,31 @@ font: 1.5rem sans-serif;
     font-size: 1.4rem;
     color: black;
     text-align: center;
-    margin-top: -11px;
-    margin-left: 55%;
-    padding: 19px;
-   
+    margin-top: -0.6875rem;
+    margin-left: 41rem;
+    padding: 1.1875rem;
 }
 .socialmedia2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.4rem;
     color: black;
     text-align: center;
-    margin-top: -11px;
-    margin-left: -40%;
-    padding: 19px;
-  
+    margin-top: -0.6875rem;
+    margin-left: -30rem;
+    padding: 1.1875rem;
 }
 
-.icon{position:initial;
+.icon{
     display: inline-block;
     text-decoration: none;
     height: 3rem;
-    width: 3rem;
-   
-    
-    
+    width: 3rem; 
 }
 .icon:nth-child(1){
     height: 3rem;
     width: 3rem;
    display: inline-block;
-    padding: 8px 0 10px 0;
+    padding: .5rem 0 .625rem 0;
     
 }
 .icon:nth-child(1):hover{
@@ -318,7 +313,7 @@ font: 1.5rem sans-serif;
     border-radius: 10% 10% 10% 10%;
 }
 .icon:nth-child(2){
-padding: 8px 0px 10px 0px;
+padding: .5rem 0 .625rem 0;
 }
 .icon:nth-child(2):hover{
     background:#45B34A;
@@ -327,15 +322,13 @@ padding: 8px 0px 10px 0px;
 }
 
 .icon:nth-child(3){
-padding: 8px 0px 10px 0px;
+padding: .5rem 0 .625rem 0;
 }
 .icon:nth-child(3):hover{
     background:#45B34A;
     opacity: 0.9;
     border-radius: 10% 10% 10% 10%;
 }
-
-
 
 .fa-facebook-f{
     height: 2rem;
@@ -345,9 +338,9 @@ padding: 8px 0px 10px 0px;
      color: white;
      position: relative;
     background: #0167F8;
-    box-shadow: 0 1px 3px 0 #0167F8 ;
+    box-shadow: 0 .0625rem .1875rem 0 #0167F8 ;
     border-radius: 50% 50% 50% 50%;
-    padding: 7px 12px 5px 8.5px;
+    padding: .4375rem .75rem .3125rem 0.53125rem;
 }
 .fa-instagram{
     height: 2rem;
@@ -357,9 +350,9 @@ padding: 8px 0px 10px 0px;
         color: white;
         position: relative;
        background: #D62A76;
-       box-shadow: 0 1px 3px 0 #D62A76 ;
+       box-shadow: 0 .0625rem .1875rem 0 #D62A76 ;
        border-radius: 50% 50% 50% 50%;
-       padding: 5px 12px 5px 6.5px;
+       padding: .3125rem .75rem .3125rem .40625rem;
 }
 .fa-linkedin-square{
     height: 2rem;
@@ -369,16 +362,16 @@ padding: 8px 0px 10px 0px;
         color: white;
         position: relative;
        background: #4F5BD5;
-       box-shadow: 0 1px 3px 0 #4F5BD5;
+       box-shadow: 0 .0625rem .1875rem 0 #4F5BD5;
        border-radius: 50% 50% 50% 50%;
-       padding: 5px 12px 5px 6.5px;
+       padding:  .3125rem .75rem .3125rem .40625rem;
+
 }
 .icon .fa a:hover{
     background: #45B34A;
 }
 #services{
     background: #F0FAF2;
-    z-index: -1;   
 }
 #services h3{
     font-size: 2rem;
@@ -391,7 +384,7 @@ padding: 8px 0px 10px 0px;
 
 #services .box span{
     flex-direction: row;
-    width: 30%;
+    width: 23.68rem;
     display: inline-flex;  
 }
 
@@ -414,7 +407,7 @@ padding: 8px 0px 10px 0px;
 #services .box span p{
     margin-left: 18%;
     margin-top: 5%;
-    width: 0%;
+    width: 0rem;
     font-size: 1.2rem; 
 }
 
@@ -460,8 +453,8 @@ padding: 8px 0px 10px 0px;
    margin-left: 5%;
 }
 #services img{
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     background: #6CCB82;
     margin-top: 14%;
@@ -477,24 +470,19 @@ padding: 8px 0px 10px 0px;
 }
 .box img:nth-child(2){
     margin-left: 8%;
-    border: 1px solid white;
+    border: .0625rem solid white;
 }
 .box img:nth-child(3){
     margin-left: 8%;
-    border: 1px solid white;
+    border: .0625rem solid white;
 }
 #contact{
     background: url(/img/form.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    z-index: -1;
-   
 }
 .contact form{
-    border-radius: 10px 10px 10px 10px;
-  display: inline;
- 
- 
+    border-radius: .625rem .625rem .625rem .625rem; 
 }
 .contact h3{
     font-size: 2rem;
@@ -507,47 +495,48 @@ padding: 8px 0px 10px 0px;
     
 }
 .contact form .input {
-    border-radius: 10px 10px 10px 10px;
+    border-radius: .625rem .625rem .625rem .625rem;
     background: url(/img/background.jpg);
     background-blend-mode: darken;
     transform: translate(115%,5%);
-    padding-top:10px;
-    width: 30%;
-    line-height:1.48;
-    height: 70vh;
+    padding-top:.625rem;
+    width: 24rem;
+    line-height:.1.48;
+    height: 33rem;
     text-align: center;
-    box-shadow: 3px 3px 3px 3px aqua;
-
+    box-shadow: .125rem .1625rem .1625rem .1625rem aqua;
 }
 .contact form .input span{
-    padding: 1px;
-    margin-top: 1px;
+    padding: .0625rem;
+    margin-top: .0625rem;
     text-transform: uppercase;
     color:#F0FAF2;
     display: grid;
+    transform: translate(1%,150%);
 }
 .contact form .input input,.contact form textarea{border:2px solid rgba(0,0,0,0.1);
-    font-size: 10px;
-    padding: 10px;
-    margin: 3px 0;
+    font-size: .625rem;
+    padding: .625rem;
+    margin: .1875rem 0;
     text-transform: none;
    color: grey;
+   transform: translate(1%,90%);
 }
 .contact form .input input{
- margin: 1px;
-    width: 50%;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 1px 1px 1px 1px aqua;
+    margin: .0625rem;
+    width: 12rem;
+    border-radius: .625rem .625rem .625rem .625rem;
+    box-shadow: .0625rem .0625rem .0625rem .0625rem aqua inset;
     background: url(/img/form.jpeg);
     color: aqua;
     font-weight: bolder;
 }
 .contact form textarea{
-    width: 50%;
+    width: 12rem;
     resize: none;
-    border-radius: 10px;
-    transform: translate(17%,0%);
-    box-shadow:1px 1px 1px 1px aqua ;
+    border-radius: .625rem;
+    transform: translate(23%,22%);
+    box-shadow:.0625rem .0625rem .0625rem .0625rem aqua inset;
     background: url(/img/form.jpeg);
     color: aqua;
     font-weight: bolder;
@@ -556,9 +545,9 @@ padding: 8px 0px 10px 0px;
    background:url(/img/form.jpg);
    color: #F0FAF2;
    font-weight: bolder;
-   transform: translate(-150%,100%);
-    width: 15%;
-    border-radius: 10px 10px 10px 10px;
+   transform: translate(-130%,200%);
+    width: 4.5rem;
+    border-radius: .625rem .625rem .625rem .625rem inset;
 }
 .contact form .input .btn3:hover{
     background: url(/img/form.jpeg);
@@ -575,9 +564,9 @@ padding: 8px 0px 10px 0px;
 }
 footer{text-align: center;
     width: 100%;
-    height: 20vh;
+    height: 10rem;
     background: url(/img/footer.jpg);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: .625rem .625rem .625rem .625rem;
 }
 footer p{
     color: #45B34A;
@@ -590,8 +579,8 @@ footer p a{ font-size: 1.2rem;
     text-decoration: none;
     color: green;
     font-weight: bolder;
-    padding: 2px;
-    margin: 2px;
+    padding: .125rem;
+    margin: .125rem;
 }
 footer p span{
     font-size: 1.03rem;
@@ -603,4 +592,118 @@ footer p span{
 footer .iconfoot{
     transform: translate(10%,55%);
     font-size: 1.4rem;
+}
+.menu{
+    visibility:hidden;
+}
+
+@media(width<1500px){
+    html{
+        font-size: 92.5%;
+    }
+}
+@media(width<1026px){
+    html{
+        font-size: 62.5%;
+    }
+    .navbar2 .btn  :nth-child(1){
+        width: 15rem; 
+       }
+       .navbar2 .btn :nth-child(2){
+           width: 3.4375rem; 
+           height: 1.5rem;
+           transform: translate(-2%,-10%);
+       }
+       .socialmedia1{
+              margin-left: 34rem;
+       }
+       .socialmedia2{
+                  margin-left: -37rem;
+       }
+       .contact h3{
+        transform: translate(-1%,-20%);
+      }
+      .contact form .input{
+        transform: translate(125%,1%);
+      }
+      
+     
+}
+
+
+@media(width<769px){
+    html{
+        font-size: 45.5%;
+    }
+    .navbar2 .btn  :nth-child(1){
+       width: 15rem; 
+       height: 2rem;
+      }
+      .navbar2 .btn :nth-child(2){
+          width: 3.5375rem; 
+          height: 1.8rem;
+          transform: translate(-2%,-19%);
+      }
+      .socialmedia1{
+        margin-left: 33rem;
+      }
+      .socialmedia2{
+        margin-left: -39rem;
+      }
+      .contact h3{
+        transform: translate(-1%,-20%);
+      }
+      .contact form .input{
+        transform: translate(130%,1%);
+      }
+      .contact form .input span{
+        transform: translate(1%,80%);
+      }
+      .contact form .input input{
+        transform: translate(1%,38%);
+      }
+      .contact form .input textarea{
+        transform: translate(20%,20%);
+      }
+      .contact form .input .btn3{
+        transform: translate(-140%,155%);
+      }
+}
+
+@media(width<450px){
+    html{
+        font-size: 25.5%;
+    }
+    .navbar2 .btn  :nth-child(1){
+        width: 14rem; 
+        height: 2.5rem;
+       }
+    .navbar2 .btn input::placeholder{
+        font-size: 2.7rem;
+       }
+
+    .navbar2 .btn :nth-child(2){
+           width: 3.5375rem; 
+           height: 2rem;
+           transform: translate(-2%,-45%);
+       }
+       .contact form .input input{
+                 height: 3rem;
+       }
+       .contact form .input textarea{
+        height: 5rem;
+       }
+       .contact form .input .btn3{
+        transform: translate(-140%,105%);
+        background: blue;
+      }
+}
+@media(width<400px){
+    html{
+        font-size: 18.5%;
+    }
+    .navbar1{
+        display: none;
+    }
+    
 }
