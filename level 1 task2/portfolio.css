@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    transition: all 0.45s linear;
+    font-size: 100%;
+}
+body{
+    background-color: red;
+}
+header .name {
+    border: 0.2rem solid red;
+    border-radius: 50% 50% 50% 50%;
+    width: 4rem;
+}

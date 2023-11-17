@@ -13,10 +13,7 @@ html{
 body{ 
     width: 100%;
   background: #F0FAF2;
-   background-position:center;
-   background-repeat: no-repeat;
-   background-size:100%;
-    background-attachment: fixed;
+   background-size:100%;  
 }
 
 
