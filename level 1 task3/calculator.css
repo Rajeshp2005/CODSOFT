@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(30deg,black,grey);
+    background-size: cover;
+    height: 82.5vh;
+    position: relative;
+}
+.forborder{ font-size: 2rem;
+    line-height: 1.78;
+    margin-top: 8%;
+    border-radius: 15px;
+    width: 26.25%;
+    transform: translate(140%,8%);
+    height: 58vh;
+    background-color: aquamarine;
+    
+}
+form input{
+    max-width: 74.42%;
+    font-size: 2rem;
+    height: 10vh;
+    transform: translate(17.42%,70%);
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px; 
+    text-align: right; 
+    flex: 1;
+}
+
+input::placeholder{
+    color: black;
+    text-align: right;
+}
+
+button{
+    width: 13%;
+    box-shadow: -4.5px -3.5px .5px .5px rgba(0,0, 0, .3);
+    height: 7vh;
+    line-height:1.03;
+    transform: translate(100%,135%);
+    font-size: 1.4rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    margin: .8px;
+}
+
+button:nth-child(6){background-color: orange;}
+button:nth-child(7){background-color: orange;}
+button:nth-last-child(1){
+    background-color: green;
+    width: 28%;
+    margin-left: -57.75px;
+}

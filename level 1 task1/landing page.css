@@ -33,6 +33,7 @@ header .logo img{
     margin-left: 4.375rem;
     width: 2.625rem;
     border-radius: 50% 50% 50% 50%;
+    object-fit: cover;
 }
 header .navbar1{ margin-left: 18.75rem;}
 header .navbar1 a{
@@ -91,6 +92,7 @@ section{
    background-repeat: no-repeat;
    background-size:100%;
     background-attachment: fixed;
+    text-align: justify;
 }
 .home :hover{
     background: #F0FAF2;
@@ -231,8 +233,7 @@ font: 1.5rem sans-serif;
 .about{
     font-weight: bold;
     background-color: #F0FAF2;
-   
-   
+    text-align: justify;
 }
 .member1{
    margin-top: 1rem;
@@ -241,8 +242,6 @@ font: 1.5rem sans-serif;
     margin-left: 15.5rem;
     color: black;
     font-weight: lighter;
-   
-   
 }
 .member1 img{ 
     margin-left: 35rem;
@@ -250,7 +249,7 @@ font: 1.5rem sans-serif;
     width: 18.75rem;
     border-radius: 10% 10% 10% 10%;
     box-shadow: .1rem .1rem .1rem .1rem green; 
-    
+    object-fit: cover;
 }
 .member2 img{
     margin-left: -45rem;
@@ -258,7 +257,7 @@ font: 1.5rem sans-serif;
     width: 18.75rem;
     border-radius: 10% 10% 10% 10%;
     box-shadow: .1rem .1rem .1rem .1rem green;
-  
+    object-fit: cover;
 }
 #about img:hover{
  transform: scale(1.05);
@@ -296,6 +295,7 @@ font: 1.5rem sans-serif;
     text-decoration: none;
     height: 3rem;
     width: 3rem; 
+    object-fit: cover;
 }
 .icon:nth-child(1){
     height: 3rem;
@@ -338,6 +338,7 @@ padding: .5rem 0 .625rem 0;
     box-shadow: 0 .0625rem .1875rem 0 #0167F8 ;
     border-radius: 50% 50% 50% 50%;
     padding: .4375rem .75rem .3125rem 0.53125rem;
+    
 }
 .fa-instagram{
     height: 2rem;
@@ -369,6 +370,7 @@ padding: .5rem 0 .625rem 0;
 }
 #services{
     background: #F0FAF2;
+    text-align: justify;
 }
 #services h3{
     font-size: 2rem;
@@ -456,7 +458,7 @@ padding: .5rem 0 .625rem 0;
     background: #6CCB82;
     margin-top: 14%;
     margin-left: 1%;
-    
+    object-fit: cover;
 }
 .box img:nth-child(1){
     border: 1px none red;
@@ -589,9 +591,6 @@ footer p span{
 footer .iconfoot{
     transform: translate(10%,55%);
     font-size: 1.4rem;
-}
-.menu{
-    visibility:hidden;
 }
 
 @media(width<1500px){
