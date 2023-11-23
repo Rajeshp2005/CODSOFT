@@ -343,7 +343,7 @@ section{
  
  .contact form .input {
     border-radius: .625rem .625rem .625rem .625rem;
-    background: url(/img/background.jpg);
+    background: url(img/background.jpg);
     transform: translate(115%,5%);
     padding-top:.325rem;
     width: 24rem;
@@ -373,7 +373,7 @@ section{
     width: 12rem;
     border-radius: .625rem .625rem .625rem .625rem;
     box-shadow: .0625rem .0625rem .0625rem .0625rem gold inset,-.0625rem -.0625rem .0625rem .0625rem gold inset;
-    background: url(/img/form.jpeg);
+    background: url(img/form.jpeg);
     color: aqua;
     font-weight: bolder;
 }
@@ -383,12 +383,12 @@ section{
     border-radius: .625rem;
     transform: translate(23%,22%);
     box-shadow:.0625rem .0625rem .0625rem .0625rem gold inset,-.0625rem -.0625rem .0625rem .0625rem gold inset;
-    background: url(/img/form.jpeg);
+    background: url(img/form.jpeg);
     color: aqua;
     font-weight: bolder;
 }
 .contact form .input .btn3{
-   background:url(/img/form.jpg);
+   background:url(img/form.jpg);
    color: #F0FAF2;
    font-weight: bolder;
    transform: translate(-130%,200%);
@@ -396,7 +396,7 @@ section{
     border-radius: .625rem .625rem .625rem .625rem inset;
 }
 .contact form .input .btn3:hover{
-    background: url(/img/form.jpeg);
+    background: url(img/form.jpeg);
     color: aquamarine;
     font-weight: bolder;
     cursor: pointer;
